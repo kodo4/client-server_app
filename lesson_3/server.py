@@ -5,7 +5,7 @@ import sys
 import json
 from common.variables import ACTION, ACCOUNT_NAME, RESPONSE, MAX_CONNECTIONS, \
     PRESENCE, TIME, USER, ERROR, DEFAULT_PORT
-from common.utils import get_massage, send_message
+from common.utils import get_message, send_message
 
 
 def process_client_message(message):
@@ -70,7 +70,7 @@ def main():
     while True:
         client, client_address = transport.accept()
         try:
-            message_from_client = get_massage(client)
+            message_from_client = get_message(client)
             print(message_from_client)
             response = process_client_message(message_from_client)
             send_message(client, response)

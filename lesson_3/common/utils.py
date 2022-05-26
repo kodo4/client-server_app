@@ -4,7 +4,7 @@ import json
 from .variables import MAX_PACKAGE_LENGTH, ENCODING
 
 
-def get_massage(client):
+def get_message(client):
     """
     Утилита приёма и декодирования сообщения.
     Принимает байты, выдаёт словарь, если принято что-то
