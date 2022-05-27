@@ -1,0 +1,35 @@
+2022-05-27 17:44:44,983 WARNING  client     IP and PORT not selected. Used default IP - 127.0.0.1, PORT - 7777
+2022-05-27 17:44:44,983 INFO     client     create socket <socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+2022-05-27 17:44:44,993 INFO     client     connect to server with IP 127.0.0.1 PORT - 7777
+2022-05-27 17:44:44,993 INFO     client     generate presence message: {'action': 'presence', 'time': 1653662684.993729, 'user': {'account_name': 'Guest'}}
+2022-05-27 17:44:44,993 INFO     client     message send
+2022-05-27 17:44:44,993 INFO     client     get message from server {'response': 200}
+2022-05-27 17:44:44,993 INFO     client     get answer from server 200: OK
+2022-05-27 17:48:51,423 WARNING  client     IP and PORT not selected. Used default IP - 127.0.0.1, PORT - 7777
+2022-05-27 17:48:51,423 INFO     client     create socket <socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+2022-05-27 17:48:51,423 INFO     client     connect to server with IP 127.0.0.1 PORT - 7777
+2022-05-27 17:48:51,423 INFO     client     generate presence message: {'action': 'presence', 'time': 1653662931.423418, 'user': {'account_name': 'Guest'}}
+2022-05-27 17:48:51,423 INFO     client     message send
+2022-05-27 17:48:51,433 INFO     client     get message from server {'response': 200}
+2022-05-27 17:48:51,433 INFO     client     get answer from server 200: OK
+2022-05-27 17:49:13,133 WARNING  client     IP and PORT not selected. Used default IP - 127.0.0.1, PORT - 7777
+2022-05-27 17:49:13,133 INFO     client     create socket <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+2022-05-27 17:49:13,143 INFO     client     connect to server with IP 127.0.0.1 PORT - 7777
+2022-05-27 17:49:13,143 INFO     client     generate presence message: {'action': 'presence', 'time': 1653662953.1435196, 'user': {'account_name': 'Guest'}}
+2022-05-27 17:49:13,143 INFO     client     message send
+2022-05-27 17:49:13,143 INFO     client     get message from server {'response': 200}
+2022-05-27 17:49:13,143 INFO     client     get answer from server 200: OK
+2022-05-27 17:51:54,803 WARNING  client     IP and PORT not selected. Used default IP - 127.0.0.1, PORT - 7777
+2022-05-27 17:51:54,803 INFO     client     create socket <socket.socket fd=384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+2022-05-27 17:51:54,803 INFO     client     connect to server with IP 127.0.0.1 PORT - 7777
+2022-05-27 17:51:54,803 INFO     client     generate presence message: {'action': 'presence', 'time': 1653663114.8035493, 'user': {'account_name': 'Guest'}}
+2022-05-27 17:51:54,803 INFO     client     message send
+2022-05-27 17:51:54,803 INFO     client     get message from server {'response': 200}
+2022-05-27 17:51:54,803 INFO     client     get answer from server 200: OK
+2022-05-27 17:52:08,263 WARNING  client     IP and PORT not selected. Used default IP - 127.0.0.1, PORT - 7777
+2022-05-27 17:52:08,263 INFO     client     create socket <socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+2022-05-27 17:52:08,268 INFO     client     connect to server with IP 127.0.0.1 PORT - 7777
+2022-05-27 17:52:08,268 INFO     client     generate presence message: {'action': 'presence', 'time': 1653663128.26848, 'user': {'account_name': 'Guest'}}
+2022-05-27 17:52:08,268 INFO     client     message send
+2022-05-27 17:52:08,268 INFO     client     get message from server {'response': 200}
+2022-05-27 17:52:08,268 INFO     client     get answer from server 200: OK
