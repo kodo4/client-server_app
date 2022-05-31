@@ -2,8 +2,12 @@
 
 import json
 from .variables import MAX_PACKAGE_LENGTH, ENCODING
+import sys, os
+sys.path.insert(0, os.path.join(os.getcwd(), '..'))
+from decor import log
 
 
+@log
 def get_message(client):
     """
     Утилита приёма и декодирования сообщения.
@@ -23,6 +27,7 @@ def get_message(client):
     raise ValueError
 
 
+@log
 def send_message(sock, message):
     """Утилита кодирования и отправки сообщения:
     принимает для отправки словарь, получает из него строку,

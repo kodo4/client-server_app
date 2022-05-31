@@ -1,0 +1,34 @@
+2022-05-27 17:44:22,803 WARNING  server PORT not selected. Used default PORT 7777
+2022-05-27 17:44:22,803 WARNING  server IP not selected.
+2022-05-27 17:44:22,803 INFO     server created socket <socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 7777)>
+2022-05-27 17:44:44,993 INFO     server {'action': 'presence', 'time': 1653662684.993729, 'user': {'account_name': 'Guest'}}
+2022-05-27 17:44:44,993 INFO     server client message is OK: {'action': 'presence', 'time': 1653662684.993729, 'user': {'account_name': 'Guest'}}
+2022-05-27 17:44:44,993 DEBUG    server {'response': 200}
+2022-05-27 17:44:44,993 INFO     server send message to <socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62123)>
+2022-05-27 17:44:44,993 INFO     server client socket close
+2022-05-27 17:48:51,423 INFO     server {'action': 'presence', 'time': 1653662931.423418, 'user': {'account_name': 'Guest'}}
+2022-05-27 17:48:51,423 INFO     server client message is OK: {'action': 'presence', 'time': 1653662931.423418, 'user': {'account_name': 'Guest'}}
+2022-05-27 17:48:51,433 DEBUG    server {'response': 200}
+2022-05-27 17:48:51,433 INFO     server send message to <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62127)>
+2022-05-27 17:48:51,433 INFO     server client socket close
+2022-05-27 17:49:07,953 WARNING  server PORT not selected. Used default PORT 7777
+2022-05-27 17:49:07,953 WARNING  server IP not selected.
+2022-05-27 17:49:07,953 INFO     server created socket <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 7777)>
+2022-05-27 17:49:13,143 INFO     server get message from client {'action': 'presence', 'time': 1653662953.1435196, 'user': {'account_name': 'Guest'}}
+2022-05-27 17:49:13,143 INFO     server client message is OK
+2022-05-27 17:49:13,143 INFO     server ready message to client: {'response': 200}
+2022-05-27 17:49:13,143 INFO     server send to <socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62129)>
+2022-05-27 17:49:13,143 INFO     server client socket close
+2022-05-27 17:51:54,803 INFO     server get message from client {'action': 'presence', 'time': 1653663114.8035493, 'user': {'account_name': 'Guest'}}
+2022-05-27 17:51:54,803 INFO     server client message is OK
+2022-05-27 17:51:54,803 INFO     server ready message to client: {'response': 200}
+2022-05-27 17:51:54,803 INFO     server send to <socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62132)>
+2022-05-27 17:51:54,803 INFO     server client socket close
+2022-05-27 17:52:05,063 WARNING  server     PORT not selected. Used default PORT 7777
+2022-05-27 17:52:05,063 WARNING  server     IP not selected.
+2022-05-27 17:52:05,073 INFO     server     created socket <socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 7777)>
+2022-05-27 17:52:08,268 INFO     server     get message from client {'action': 'presence', 'time': 1653663128.26848, 'user': {'account_name': 'Guest'}}
+2022-05-27 17:52:08,268 INFO     server     client message is OK
+2022-05-27 17:52:08,268 INFO     server     ready message to client: {'response': 200}
+2022-05-27 17:52:08,268 INFO     server     send to <socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62134)>
+2022-05-27 17:52:08,268 INFO     server     client socket close

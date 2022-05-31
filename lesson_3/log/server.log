@@ -1,34 +1,38 @@
-2022-05-27 17:44:22,803 WARNING  server PORT not selected. Used default PORT 7777
-2022-05-27 17:44:22,803 WARNING  server IP not selected.
-2022-05-27 17:44:22,803 INFO     server created socket <socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 7777)>
-2022-05-27 17:44:44,993 INFO     server {'action': 'presence', 'time': 1653662684.993729, 'user': {'account_name': 'Guest'}}
-2022-05-27 17:44:44,993 INFO     server client message is OK: {'action': 'presence', 'time': 1653662684.993729, 'user': {'account_name': 'Guest'}}
-2022-05-27 17:44:44,993 DEBUG    server {'response': 200}
-2022-05-27 17:44:44,993 INFO     server send message to <socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62123)>
-2022-05-27 17:44:44,993 INFO     server client socket close
-2022-05-27 17:48:51,423 INFO     server {'action': 'presence', 'time': 1653662931.423418, 'user': {'account_name': 'Guest'}}
-2022-05-27 17:48:51,423 INFO     server client message is OK: {'action': 'presence', 'time': 1653662931.423418, 'user': {'account_name': 'Guest'}}
-2022-05-27 17:48:51,433 DEBUG    server {'response': 200}
-2022-05-27 17:48:51,433 INFO     server send message to <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62127)>
-2022-05-27 17:48:51,433 INFO     server client socket close
-2022-05-27 17:49:07,953 WARNING  server PORT not selected. Used default PORT 7777
-2022-05-27 17:49:07,953 WARNING  server IP not selected.
-2022-05-27 17:49:07,953 INFO     server created socket <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 7777)>
-2022-05-27 17:49:13,143 INFO     server get message from client {'action': 'presence', 'time': 1653662953.1435196, 'user': {'account_name': 'Guest'}}
-2022-05-27 17:49:13,143 INFO     server client message is OK
-2022-05-27 17:49:13,143 INFO     server ready message to client: {'response': 200}
-2022-05-27 17:49:13,143 INFO     server send to <socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62129)>
-2022-05-27 17:49:13,143 INFO     server client socket close
-2022-05-27 17:51:54,803 INFO     server get message from client {'action': 'presence', 'time': 1653663114.8035493, 'user': {'account_name': 'Guest'}}
-2022-05-27 17:51:54,803 INFO     server client message is OK
-2022-05-27 17:51:54,803 INFO     server ready message to client: {'response': 200}
-2022-05-27 17:51:54,803 INFO     server send to <socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62132)>
-2022-05-27 17:51:54,803 INFO     server client socket close
-2022-05-27 17:52:05,063 WARNING  server     PORT not selected. Used default PORT 7777
-2022-05-27 17:52:05,063 WARNING  server     IP not selected.
-2022-05-27 17:52:05,073 INFO     server     created socket <socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 7777)>
-2022-05-27 17:52:08,268 INFO     server     get message from client {'action': 'presence', 'time': 1653663128.26848, 'user': {'account_name': 'Guest'}}
-2022-05-27 17:52:08,268 INFO     server     client message is OK
-2022-05-27 17:52:08,268 INFO     server     ready message to client: {'response': 200}
-2022-05-27 17:52:08,268 INFO     server     send to <socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 62134)>
-2022-05-27 17:52:08,268 INFO     server     client socket close
+2022-05-31 13:56:29,394 WARNING  server     PORT not selected. Used default PORT 7777
+2022-05-31 13:56:29,394 WARNING  server     IP not selected.
+2022-05-31 13:56:29,396 INFO     server     created socket <socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 7777)>
+2022-05-31 13:56:33,201 INFO     server     get message from client {'action': 'presence', 'time': 1653994593.2001522, 'user': {'account_name': 'Guest'}}
+2022-05-31 13:56:33,201 INFO     server     client message is OK
+2022-05-31 13:56:33,201 INFO     decor      Функция process_client_message, аргументы: ({'action': 'presence', 'time': 1653994593.2001522, 'user': {'account_name': 'Guest'}},), {}
+2022-05-31 13:56:33,202 INFO     decor      Функция process_client_message была вызвана из функции __main__
+2022-05-31 13:56:33,202 INFO     server     ready message to client: {'response': 200}
+2022-05-31 13:56:33,202 INFO     server     send to <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54880)>
+2022-05-31 13:56:33,202 INFO     server     client socket close
+2022-05-31 14:06:13,818 INFO     server     get message from client {'action': 'presence', 'time': 1653995173.8177652, 'user': {'account_name': 'Guest'}}
+2022-05-31 14:06:13,818 INFO     server     client message is OK
+2022-05-31 14:06:13,818 INFO     decor      Функция process_client_message, аргументы: ({'action': 'presence', 'time': 1653995173.8177652, 'user': {'account_name': 'Guest'}},), {}
+2022-05-31 14:06:13,818 INFO     decor      Функция process_client_message была вызвана из функции __main__
+2022-05-31 14:06:13,818 INFO     server     ready message to client: {'response': 200}
+2022-05-31 14:06:13,818 INFO     server     send to <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 55818)>
+2022-05-31 14:06:13,818 INFO     server     client socket close
+2022-05-31 14:07:52,758 INFO     server     get message from client {'action': 'presence', 'time': 1653995272.7574594, 'user': {'account_name': 'Guest'}}
+2022-05-31 14:07:52,758 INFO     server     client message is OK
+2022-05-31 14:07:52,758 INFO     decor      Функция process_client_message, аргументы: ({'action': 'presence', 'time': 1653995272.7574594, 'user': {'account_name': 'Guest'}},), {}
+2022-05-31 14:07:52,758 INFO     decor      Функция process_client_message была вызвана из функции __main__
+2022-05-31 14:07:52,758 INFO     server     ready message to client: {'response': 200}
+2022-05-31 14:07:52,759 INFO     server     send to <socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 55909)>
+2022-05-31 14:07:52,759 INFO     server     client socket close
+2022-05-31 14:08:43,274 INFO     server     get message from client {'action': 'presence', 'time': 1653995323.2740862, 'user': {'account_name': 'Guest'}}
+2022-05-31 14:08:43,275 INFO     server     client message is OK
+2022-05-31 14:08:43,275 INFO     decor      Функция process_client_message, аргументы: ({'action': 'presence', 'time': 1653995323.2740862, 'user': {'account_name': 'Guest'}},), {}
+2022-05-31 14:08:43,275 INFO     decor      Функция process_client_message была вызвана из функции __main__
+2022-05-31 14:08:43,275 INFO     server     ready message to client: {'response': 200}
+2022-05-31 14:08:43,276 INFO     server     send to <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 55952)>
+2022-05-31 14:08:43,276 INFO     server     client socket close
+2022-05-31 18:55:58,941 INFO     server     get message from client {'action': 'presence', 'time': 1654012558.9394171, 'user': {'account_name': 'Guest'}}
+2022-05-31 18:55:58,941 INFO     server     client message is OK
+2022-05-31 18:55:58,941 INFO     decor      Функция process_client_message, аргументы: ({'action': 'presence', 'time': 1654012558.9394171, 'user': {'account_name': 'Guest'}},), {}
+2022-05-31 18:55:58,942 INFO     decor      Функция process_client_message была вызвана из функции __main__
+2022-05-31 18:55:58,942 INFO     server     ready message to client: {'response': 200}
+2022-05-31 18:55:58,942 INFO     server     send to <socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49607)>
+2022-05-31 18:55:58,942 INFO     server     client socket close
