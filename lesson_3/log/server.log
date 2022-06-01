@@ -1,38 +1,47 @@
-2022-05-31 13:56:29,394 WARNING  server     PORT not selected. Used default PORT 7777
-2022-05-31 13:56:29,394 WARNING  server     IP not selected.
-2022-05-31 13:56:29,396 INFO     server     created socket <socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 7777)>
-2022-05-31 13:56:33,201 INFO     server     get message from client {'action': 'presence', 'time': 1653994593.2001522, 'user': {'account_name': 'Guest'}}
-2022-05-31 13:56:33,201 INFO     server     client message is OK
-2022-05-31 13:56:33,201 INFO     decor      Функция process_client_message, аргументы: ({'action': 'presence', 'time': 1653994593.2001522, 'user': {'account_name': 'Guest'}},), {}
-2022-05-31 13:56:33,202 INFO     decor      Функция process_client_message была вызвана из функции __main__
-2022-05-31 13:56:33,202 INFO     server     ready message to client: {'response': 200}
-2022-05-31 13:56:33,202 INFO     server     send to <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 54880)>
-2022-05-31 13:56:33,202 INFO     server     client socket close
-2022-05-31 14:06:13,818 INFO     server     get message from client {'action': 'presence', 'time': 1653995173.8177652, 'user': {'account_name': 'Guest'}}
-2022-05-31 14:06:13,818 INFO     server     client message is OK
-2022-05-31 14:06:13,818 INFO     decor      Функция process_client_message, аргументы: ({'action': 'presence', 'time': 1653995173.8177652, 'user': {'account_name': 'Guest'}},), {}
-2022-05-31 14:06:13,818 INFO     decor      Функция process_client_message была вызвана из функции __main__
-2022-05-31 14:06:13,818 INFO     server     ready message to client: {'response': 200}
-2022-05-31 14:06:13,818 INFO     server     send to <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 55818)>
-2022-05-31 14:06:13,818 INFO     server     client socket close
-2022-05-31 14:07:52,758 INFO     server     get message from client {'action': 'presence', 'time': 1653995272.7574594, 'user': {'account_name': 'Guest'}}
-2022-05-31 14:07:52,758 INFO     server     client message is OK
-2022-05-31 14:07:52,758 INFO     decor      Функция process_client_message, аргументы: ({'action': 'presence', 'time': 1653995272.7574594, 'user': {'account_name': 'Guest'}},), {}
-2022-05-31 14:07:52,758 INFO     decor      Функция process_client_message была вызвана из функции __main__
-2022-05-31 14:07:52,758 INFO     server     ready message to client: {'response': 200}
-2022-05-31 14:07:52,759 INFO     server     send to <socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 55909)>
-2022-05-31 14:07:52,759 INFO     server     client socket close
-2022-05-31 14:08:43,274 INFO     server     get message from client {'action': 'presence', 'time': 1653995323.2740862, 'user': {'account_name': 'Guest'}}
-2022-05-31 14:08:43,275 INFO     server     client message is OK
-2022-05-31 14:08:43,275 INFO     decor      Функция process_client_message, аргументы: ({'action': 'presence', 'time': 1653995323.2740862, 'user': {'account_name': 'Guest'}},), {}
-2022-05-31 14:08:43,275 INFO     decor      Функция process_client_message была вызвана из функции __main__
-2022-05-31 14:08:43,275 INFO     server     ready message to client: {'response': 200}
-2022-05-31 14:08:43,276 INFO     server     send to <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 55952)>
-2022-05-31 14:08:43,276 INFO     server     client socket close
-2022-05-31 18:55:58,941 INFO     server     get message from client {'action': 'presence', 'time': 1654012558.9394171, 'user': {'account_name': 'Guest'}}
-2022-05-31 18:55:58,941 INFO     server     client message is OK
-2022-05-31 18:55:58,941 INFO     decor      Функция process_client_message, аргументы: ({'action': 'presence', 'time': 1654012558.9394171, 'user': {'account_name': 'Guest'}},), {}
-2022-05-31 18:55:58,942 INFO     decor      Функция process_client_message была вызвана из функции __main__
-2022-05-31 18:55:58,942 INFO     server     ready message to client: {'response': 200}
-2022-05-31 18:55:58,942 INFO     server     send to <socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49607)>
-2022-05-31 18:55:58,942 INFO     server     client socket close
+2022-06-01 20:03:31,189 WARNING  server     PORT not selected. Used default PORT 7777
+2022-06-01 20:03:31,189 WARNING  server     IP not selected.
+2022-06-01 20:03:31,189 INFO     server     created socket <socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('0.0.0.0', 7777)>
+2022-06-01 20:03:33,392 INFO     decor      Функция get_message, аргументы: (<socket.socket fd=352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50662)>,), {}
+2022-06-01 20:03:33,408 INFO     decor      Функция get_message была вызвана из функции main
+2022-06-01 20:03:33,408 INFO     server     get message from client {'action': 'presence', 'time': 1654103013.3825574, 'user': {'account_name': 'Guest'}}
+2022-06-01 20:03:33,408 INFO     server     client message is OK
+2022-06-01 20:03:33,408 INFO     decor      Функция process_client_message, аргументы: ({'action': 'presence', 'time': 1654103013.3825574, 'user': {'account_name': 'Guest'}},), {}
+2022-06-01 20:03:33,408 INFO     decor      Функция process_client_message была вызвана из функции main
+2022-06-01 20:03:33,408 INFO     server     ready message to client: {'response': 200}
+2022-06-01 20:03:33,408 INFO     decor      Функция send_message, аргументы: (<socket.socket fd=352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50662)>, {'response': 200}), {}
+2022-06-01 20:03:33,408 INFO     decor      Функция send_message была вызвана из функции main
+2022-06-01 20:03:33,408 INFO     server     send to <socket.socket fd=352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50662)>
+2022-06-01 20:03:33,408 INFO     server     client socket close
+2022-06-01 20:04:15,189 INFO     decor      Функция get_message, аргументы: (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50670)>,), {}
+2022-06-01 20:04:15,190 INFO     decor      Функция get_message была вызвана из функции main
+2022-06-01 20:04:15,190 INFO     server     get message from client {'action': 'presence', 'time': 1654103055.1627963, 'user': {'account_name': 'Guest'}}
+2022-06-01 20:04:15,190 INFO     server     client message is OK
+2022-06-01 20:04:15,190 INFO     decor      Функция process_client_message, аргументы: ({'action': 'presence', 'time': 1654103055.1627963, 'user': {'account_name': 'Guest'}},), {}
+2022-06-01 20:04:15,191 INFO     decor      Функция process_client_message была вызвана из функции main
+2022-06-01 20:04:15,191 INFO     server     ready message to client: {'response': 200}
+2022-06-01 20:04:15,191 INFO     decor      Функция send_message, аргументы: (<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50670)>, {'response': 200}), {}
+2022-06-01 20:04:15,191 INFO     decor      Функция send_message была вызвана из функции main
+2022-06-01 20:04:15,192 INFO     server     send to <socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50670)>
+2022-06-01 20:04:15,192 INFO     server     client socket close
+2022-06-01 20:04:38,957 INFO     decor      Функция get_message, аргументы: (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50683)>,), {}
+2022-06-01 20:04:38,957 INFO     decor      Функция get_message была вызвана из функции main
+2022-06-01 20:04:38,957 INFO     server     get message from client {'action': 'presence', 'time': 1654103078.9261642, 'user': {'account_name': 'Guest'}}
+2022-06-01 20:04:38,957 INFO     server     client message is OK
+2022-06-01 20:04:38,957 INFO     decor      Функция process_client_message, аргументы: ({'action': 'presence', 'time': 1654103078.9261642, 'user': {'account_name': 'Guest'}},), {}
+2022-06-01 20:04:38,957 INFO     decor      Функция process_client_message была вызвана из функции main
+2022-06-01 20:04:38,957 INFO     server     ready message to client: {'response': 200}
+2022-06-01 20:04:38,957 INFO     decor      Функция send_message, аргументы: (<socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50683)>, {'response': 200}), {}
+2022-06-01 20:04:38,957 INFO     decor      Функция send_message была вызвана из функции main
+2022-06-01 20:04:38,957 INFO     server     send to <socket.socket fd=316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50683)>
+2022-06-01 20:04:38,957 INFO     server     client socket close
+2022-06-01 20:04:55,730 INFO     decor      Функция get_message, аргументы: (<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50690)>,), {}
+2022-06-01 20:04:55,730 INFO     decor      Функция get_message была вызвана из функции main
+2022-06-01 20:04:55,731 INFO     server     get message from client {'action': 'presence', 'time': 1654103095.7036717, 'user': {'account_name': 'Guest'}}
+2022-06-01 20:04:55,731 INFO     server     client message is OK
+2022-06-01 20:04:55,731 INFO     decor      Функция process_client_message, аргументы: ({'action': 'presence', 'time': 1654103095.7036717, 'user': {'account_name': 'Guest'}},), {}
+2022-06-01 20:04:55,731 INFO     decor      Функция process_client_message была вызвана из функции main
+2022-06-01 20:04:55,731 INFO     server     ready message to client: {'response': 200}
+2022-06-01 20:04:55,731 INFO     decor      Функция send_message, аргументы: (<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50690)>, {'response': 200}), {}
+2022-06-01 20:04:55,732 INFO     decor      Функция send_message была вызвана из функции main
+2022-06-01 20:04:55,732 INFO     server     send to <socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50690)>
+2022-06-01 20:04:55,732 INFO     server     client socket close

@@ -1,71 +1,60 @@
-2022-05-31 13:56:33,198 WARNING  client     IP and PORT not selected. Used default IP - 127.0.0.1, PORT - 7777
-2022-05-31 13:56:33,199 INFO     client     create socket <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
-2022-05-31 13:56:33,200 INFO     client     connect to server with IP 127.0.0.1 PORT - 7777
-2022-05-31 13:56:33,200 INFO     client     generate presence message: {'action': 'presence', 'time': 1653994593.2001522, 'user': {'account_name': 'Guest'}}
-2022-05-31 13:56:33,200 INFO     decor      Функция create_presence, аргументы: ('Guest',), {}
-2022-05-31 13:56:33,200 INFO     decor      Функция create_presence была вызвана из функции __main__
-2022-05-31 13:56:33,200 INFO     client     message send
-2022-05-31 13:56:33,202 INFO     client     get message from server {'response': 200}
-2022-05-31 13:56:33,202 INFO     decor      Функция process_ans, аргументы: ({'response': 200},), {}
-2022-05-31 13:56:33,202 INFO     decor      Функция process_ans была вызвана из функции __main__
-2022-05-31 13:56:33,202 INFO     client     get answer from server 200: OK
-2022-05-31 14:06:13,816 WARNING  client     IP and PORT not selected. Used default IP - 127.0.0.1, PORT - 7777
-2022-05-31 14:06:13,816 INFO     client     create socket <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
-2022-05-31 14:06:13,817 INFO     client     connect to server with IP 127.0.0.1 PORT - 7777
-2022-05-31 14:06:13,817 INFO     client     generate presence message: {'action': 'presence', 'time': 1653995173.8177652, 'user': {'account_name': 'Guest'}}
-2022-05-31 14:06:13,817 INFO     decor      Функция create_presence, аргументы: ('Guest',), {}
-2022-05-31 14:06:13,817 INFO     decor      Функция create_presence была вызвана из функции __main__
-2022-05-31 14:06:13,817 INFO     decor      Функция send_message, аргументы: (<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55818), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1653995173.8177652, 'user': {'account_name': 'Guest'}}), {}
-2022-05-31 14:06:13,817 INFO     decor      Функция send_message была вызвана из функции common.utils
-2022-05-31 14:06:13,817 INFO     client     message send
-2022-05-31 14:06:13,818 INFO     decor      Функция get_message, аргументы: (<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55818), raddr=('127.0.0.1', 7777)>,), {}
-2022-05-31 14:06:13,818 INFO     decor      Функция get_message была вызвана из функции common.utils
-2022-05-31 14:06:13,818 INFO     client     get message from server {'response': 200}
-2022-05-31 14:06:13,818 INFO     decor      Функция process_ans, аргументы: ({'response': 200},), {}
-2022-05-31 14:06:13,818 INFO     decor      Функция process_ans была вызвана из функции __main__
-2022-05-31 14:06:13,818 INFO     client     get answer from server 200: OK
-2022-05-31 14:07:52,755 WARNING  client     IP and PORT not selected. Used default IP - 127.0.0.1, PORT - 7777
-2022-05-31 14:07:52,756 INFO     client     create socket <socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
-2022-05-31 14:07:52,757 INFO     client     connect to server with IP 127.0.0.1 PORT - 7777
-2022-05-31 14:07:52,757 INFO     client     generate presence message: {'action': 'presence', 'time': 1653995272.7574594, 'user': {'account_name': 'Guest'}}
-2022-05-31 14:07:52,757 INFO     decor      Функция create_presence, аргументы: ('Guest',), {}
-2022-05-31 14:07:52,757 INFO     decor      Функция create_presence была вызвана из функции main()
-2022-05-31 14:07:52,758 INFO     decor      Функция send_message, аргументы: (<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55909), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1653995272.7574594, 'user': {'account_name': 'Guest'}}), {}
-2022-05-31 14:07:52,758 INFO     decor      Функция send_message была вызвана из функции main()
-2022-05-31 14:07:52,758 INFO     client     message send
-2022-05-31 14:07:52,759 INFO     decor      Функция get_message, аргументы: (<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55909), raddr=('127.0.0.1', 7777)>,), {}
-2022-05-31 14:07:52,759 INFO     decor      Функция get_message была вызвана из функции main()
-2022-05-31 14:07:52,759 INFO     client     get message from server {'response': 200}
-2022-05-31 14:07:52,759 INFO     decor      Функция process_ans, аргументы: ({'response': 200},), {}
-2022-05-31 14:07:52,759 INFO     decor      Функция process_ans была вызвана из функции main()
-2022-05-31 14:07:52,759 INFO     client     get answer from server 200: OK
-2022-05-31 14:08:43,272 WARNING  client     IP and PORT not selected. Used default IP - 127.0.0.1, PORT - 7777
-2022-05-31 14:08:43,273 INFO     client     create socket <socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
-2022-05-31 14:08:43,273 INFO     client     connect to server with IP 127.0.0.1 PORT - 7777
-2022-05-31 14:08:43,274 INFO     client     generate presence message: {'action': 'presence', 'time': 1653995323.2740862, 'user': {'account_name': 'Guest'}}
-2022-05-31 14:08:43,274 INFO     decor      Функция create_presence, аргументы: ('Guest',), {}
-2022-05-31 14:08:43,274 INFO     decor      Функция create_presence была вызвана из функции <module 'traceback' from 'C:\\Users\\kodoc\\AppData\\Local\\Programs\\Python\\Python39\\lib\\traceback.py'>
-2022-05-31 14:08:43,274 INFO     decor      Функция send_message, аргументы: (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55952), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1653995323.2740862, 'user': {'account_name': 'Guest'}}), {}
-2022-05-31 14:08:43,274 INFO     decor      Функция send_message была вызвана из функции <module 'traceback' from 'C:\\Users\\kodoc\\AppData\\Local\\Programs\\Python\\Python39\\lib\\traceback.py'>
-2022-05-31 14:08:43,274 INFO     client     message send
-2022-05-31 14:08:43,275 INFO     decor      Функция get_message, аргументы: (<socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55952), raddr=('127.0.0.1', 7777)>,), {}
-2022-05-31 14:08:43,276 INFO     decor      Функция get_message была вызвана из функции <module 'traceback' from 'C:\\Users\\kodoc\\AppData\\Local\\Programs\\Python\\Python39\\lib\\traceback.py'>
-2022-05-31 14:08:43,276 INFO     client     get message from server {'response': 200}
-2022-05-31 14:08:43,276 INFO     decor      Функция process_ans, аргументы: ({'response': 200},), {}
-2022-05-31 14:08:43,276 INFO     decor      Функция process_ans была вызвана из функции <module 'traceback' from 'C:\\Users\\kodoc\\AppData\\Local\\Programs\\Python\\Python39\\lib\\traceback.py'>
-2022-05-31 14:08:43,276 INFO     client     get answer from server 200: OK
-2022-05-31 18:55:58,936 WARNING  client     IP and PORT not selected. Used default IP - 127.0.0.1, PORT - 7777
-2022-05-31 18:55:58,938 INFO     client     create socket <socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
-2022-05-31 18:55:58,939 INFO     client     connect to server with IP 127.0.0.1 PORT - 7777
-2022-05-31 18:55:58,939 INFO     client     generate presence message: {'action': 'presence', 'time': 1654012558.9394171, 'user': {'account_name': 'Guest'}}
-2022-05-31 18:55:58,939 INFO     decor      Функция create_presence, аргументы: ('Guest',), {}
-2022-05-31 18:55:58,939 INFO     decor      Функция create_presence была вызвана из функции __main__
-2022-05-31 18:55:58,940 INFO     decor      Функция send_message, аргументы: (<socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49607), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654012558.9394171, 'user': {'account_name': 'Guest'}}), {}
-2022-05-31 18:55:58,940 INFO     decor      Функция send_message была вызвана из функции common.utils
-2022-05-31 18:55:58,940 INFO     client     message send
-2022-05-31 18:55:58,942 INFO     decor      Функция get_message, аргументы: (<socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49607), raddr=('127.0.0.1', 7777)>,), {}
-2022-05-31 18:55:58,942 INFO     decor      Функция get_message была вызвана из функции common.utils
-2022-05-31 18:55:58,942 INFO     client     get message from server {'response': 200}
-2022-05-31 18:55:58,942 INFO     decor      Функция process_ans, аргументы: ({'response': 200},), {}
-2022-05-31 18:55:58,942 INFO     decor      Функция process_ans была вызвана из функции __main__
-2022-05-31 18:55:58,942 INFO     client     get answer from server 200: OK
+2022-06-01 20:03:33,380 WARNING  client     IP and PORT not selected. Used default IP - 127.0.0.1, PORT - 7777
+2022-06-01 20:03:33,381 INFO     client     create socket <socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+2022-06-01 20:03:33,382 INFO     client     connect to server with IP 127.0.0.1 PORT - 7777
+2022-06-01 20:03:33,382 INFO     client     generate presence message: {'action': 'presence', 'time': 1654103013.3825574, 'user': {'account_name': 'Guest'}}
+2022-06-01 20:03:33,382 INFO     decor      Функция create_presence, аргументы: ('Guest',), {}
+2022-06-01 20:03:33,392 INFO     decor      Функция create_presence была вызвана из функции main
+2022-06-01 20:03:33,392 INFO     decor      Функция send_message, аргументы: (<socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50662), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654103013.3825574, 'user': {'account_name': 'Guest'}}), {}
+2022-06-01 20:03:33,392 INFO     decor      Функция send_message была вызвана из функции main
+2022-06-01 20:03:33,392 INFO     client     message send
+2022-06-01 20:03:33,408 INFO     decor      Функция get_message, аргументы: (<socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50662), raddr=('127.0.0.1', 7777)>,), {}
+2022-06-01 20:03:33,408 INFO     decor      Функция get_message была вызвана из функции main
+2022-06-01 20:03:33,408 INFO     client     get message from server {'response': 200}
+2022-06-01 20:03:33,408 INFO     decor      Функция process_ans, аргументы: ({'response': 200},), {}
+2022-06-01 20:03:33,408 INFO     decor      Функция process_ans была вызвана из функции main
+2022-06-01 20:03:33,408 INFO     client     get answer from server 200: OK
+2022-06-01 20:04:15,160 WARNING  client     IP and PORT not selected. Used default IP - 127.0.0.1, PORT - 7777
+2022-06-01 20:04:15,161 INFO     client     create socket <socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+2022-06-01 20:04:15,162 INFO     client     connect to server with IP 127.0.0.1 PORT - 7777
+2022-06-01 20:04:15,162 INFO     client     generate presence message: {'action': 'presence', 'time': 1654103055.1627963, 'user': {'account_name': 'Guest'}}
+2022-06-01 20:04:15,162 INFO     decor      Функция create_presence, аргументы: ('Guest',), {}
+2022-06-01 20:04:15,188 INFO     decor      Функция create_presence была вызвана из функции ('create_presence', 'main')
+2022-06-01 20:04:15,189 INFO     decor      Функция send_message, аргументы: (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50670), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654103055.1627963, 'user': {'account_name': 'Guest'}}), {}
+2022-06-01 20:04:15,189 INFO     decor      Функция send_message была вызвана из функции ('send_message', 'main')
+2022-06-01 20:04:15,189 INFO     client     message send
+2022-06-01 20:04:15,191 INFO     decor      Функция get_message, аргументы: (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50670), raddr=('127.0.0.1', 7777)>,), {}
+2022-06-01 20:04:15,192 INFO     decor      Функция get_message была вызвана из функции ('get_message', 'main')
+2022-06-01 20:04:15,192 INFO     client     get message from server {'response': 200}
+2022-06-01 20:04:15,192 INFO     decor      Функция process_ans, аргументы: ({'response': 200},), {}
+2022-06-01 20:04:15,192 INFO     decor      Функция process_ans была вызвана из функции ('process_ans', 'main')
+2022-06-01 20:04:15,192 INFO     client     get answer from server 200: OK
+2022-06-01 20:04:38,926 WARNING  client     IP and PORT not selected. Used default IP - 127.0.0.1, PORT - 7777
+2022-06-01 20:04:38,926 INFO     client     create socket <socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+2022-06-01 20:04:38,926 INFO     client     connect to server with IP 127.0.0.1 PORT - 7777
+2022-06-01 20:04:38,926 INFO     client     generate presence message: {'action': 'presence', 'time': 1654103078.9261642, 'user': {'account_name': 'Guest'}}
+2022-06-01 20:04:38,926 INFO     decor      Функция create_presence, аргументы: ('Guest',), {}
+2022-06-01 20:04:38,957 INFO     decor      Функция create_presence была вызвана из функции "main"
+2022-06-01 20:04:38,957 INFO     decor      Функция send_message, аргументы: (<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50683), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654103078.9261642, 'user': {'account_name': 'Guest'}}), {}
+2022-06-01 20:04:38,957 INFO     decor      Функция send_message была вызвана из функции "main"
+2022-06-01 20:04:38,957 INFO     client     message send
+2022-06-01 20:04:38,957 INFO     decor      Функция get_message, аргументы: (<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50683), raddr=('127.0.0.1', 7777)>,), {}
+2022-06-01 20:04:38,957 INFO     decor      Функция get_message была вызвана из функции "main"
+2022-06-01 20:04:38,957 INFO     client     get message from server {'response': 200}
+2022-06-01 20:04:38,957 INFO     decor      Функция process_ans, аргументы: ({'response': 200},), {}
+2022-06-01 20:04:38,957 INFO     decor      Функция process_ans была вызвана из функции "main"
+2022-06-01 20:04:38,957 INFO     client     get answer from server 200: OK
+2022-06-01 20:04:55,702 WARNING  client     IP and PORT not selected. Used default IP - 127.0.0.1, PORT - 7777
+2022-06-01 20:04:55,703 INFO     client     create socket <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>
+2022-06-01 20:04:55,703 INFO     client     connect to server with IP 127.0.0.1 PORT - 7777
+2022-06-01 20:04:55,703 INFO     client     generate presence message: {'action': 'presence', 'time': 1654103095.7036717, 'user': {'account_name': 'Guest'}}
+2022-06-01 20:04:55,703 INFO     decor      Функция "create_presence", аргументы: ('Guest',), {}
+2022-06-01 20:04:55,729 INFO     decor      Функция "create_presence" была вызвана из функции "main"
+2022-06-01 20:04:55,729 INFO     decor      Функция "send_message", аргументы: (<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50690), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654103095.7036717, 'user': {'account_name': 'Guest'}}), {}
+2022-06-01 20:04:55,730 INFO     decor      Функция "send_message" была вызвана из функции "main"
+2022-06-01 20:04:55,730 INFO     client     message send
+2022-06-01 20:04:55,731 INFO     decor      Функция "get_message", аргументы: (<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50690), raddr=('127.0.0.1', 7777)>,), {}
+2022-06-01 20:04:55,732 INFO     decor      Функция "get_message" была вызвана из функции "main"
+2022-06-01 20:04:55,732 INFO     client     get message from server {'response': 200}
+2022-06-01 20:04:55,732 INFO     decor      Функция "process_ans", аргументы: ({'response': 200},), {}
+2022-06-01 20:04:55,733 INFO     decor      Функция "process_ans" была вызвана из функции "main"
+2022-06-01 20:04:55,733 INFO     client     get answer from server 200: OK
