@@ -16,6 +16,9 @@ ACTION = 'action'
 TIME = 'time'
 USER = 'user'
 ACCOUNT_NAME = 'account_name'
+MESSAGE = 'message'
+MESSAGE_TEXT = 'message_text'
+SENDER = 'sender'
 
 # Прочие ключи, используемые в протокле
 PRESENCE = 'presence'
