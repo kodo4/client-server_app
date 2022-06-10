@@ -19,6 +19,7 @@ ACCOUNT_NAME = 'account_name'
 MESSAGE = 'message'
 MESSAGE_TEXT = 'message_text'
 SENDER = 'sender'
+SEND_TO = 'send_to'
 
 # Прочие ключи, используемые в протокле
 PRESENCE = 'presence'

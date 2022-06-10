@@ -4,7 +4,8 @@ import socket
 import sys
 import json
 from common.variables import ACTION, ACCOUNT_NAME, RESPONSE, MAX_CONNECTIONS, \
-    PRESENCE, TIME, USER, ERROR, DEFAULT_PORT, MESSAGE, MESSAGE_TEXT, SENDER
+    PRESENCE, TIME, USER, ERROR, DEFAULT_PORT, MESSAGE, MESSAGE_TEXT, SENDER, \
+    SEND_TO
 from common.utils import get_message, send_message
 import logging
 import log.server_log_config
@@ -22,13 +23,17 @@ def process_client_message(message, messages, client):
     возвращает словать-ответ для клиента
     """
     if ACTION in message and message[ACTION] == PRESENCE and TIME in message \
-        and USER in message and message[USER][ACCOUNT_NAME] == 'Guest':
+        and USER in message and message[USER][ACCOUNT_NAME] != '':
         LOG.info(f'client message is OK')
-        send_message(client, {RESPONSE: 200})
+        send_message(client, {RESPONSE: 200,
+                              USER: message[USER][ACCOUNT_NAME]})
         return
     elif ACTION in message and message[ACTION] == MESSAGE and TIME in message \
             and MESSAGE_TEXT in message:
-        messages.append((message[USER][ACCOUNT_NAME], message[MESSAGE_TEXT]))
+        LOG.info(f'client {message[SENDER]} write to {message[SEND_TO]}:'
+                 f' {message[MESSAGE_TEXT]}')
+        messages.append((message[SENDER], message[SEND_TO],
+                         message[MESSAGE_TEXT]))
         return
     LOG.warning('Client message is bad.')
     return {
@@ -125,9 +130,11 @@ def main():
             message = {
                 ACTION: MESSAGE,
                 SENDER: messages[0][0],
+                SEND_TO: messages[0][1],
                 TIME: time.time(),
-                MESSAGE_TEXT: messages[0][1]
+                MESSAGE_TEXT: messages[0][2]
             }
+
             del messages[0]
             for s_client in s_clients:
                 try:

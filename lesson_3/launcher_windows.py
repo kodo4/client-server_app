@@ -1,8 +1,6 @@
 from subprocess import Popen, CREATE_NEW_CONSOLE
 
-recv_list = []
-send_list = []
-server = []
+clients = []
 
 while True:
     user = input('Запустить сервера (s) / Закрыть сервера (х) /'
@@ -10,16 +8,12 @@ while True:
     if user == 'q':
         break
     elif user == 's':
-        # server.append(Popen('server.py', creationflags=CREATE_NEW_CONSOLE))
-        for _ in range(2):
-            recv_list.append(Popen('python recv_client.py', creationflags=
-                                   CREATE_NEW_CONSOLE))
-            send_list.append(Popen('python send_client.py', creationflags=
-                                   CREATE_NEW_CONSOLE))
+        server = Popen('python server.py', creationflags=CREATE_NEW_CONSOLE)
+        for i in range(2):
+            clients.append(Popen('python client.py',
+                                 creationflags=CREATE_NEW_CONSOLE))
+
     elif user == 'x':
-        for p in recv_list:
+        server.kill()
+        for p in clients:
             p.kill()
-        for i in send_list:
-            i.kill()
-        recv_list.clear()
-        send_list.clear()
